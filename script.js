@@ -1,4 +1,4 @@
-const startDate = new Date('2023-01-15T00:00:00'); // **Mude esta data para a data de início do seu namoro!**
+const startDate = new Date('2024-02-19T00:00:00'); // **Mude esta data para a data de início do seu namoro!**
 
 function updateCountdown() {
     const now = new Date();
