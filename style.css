@@ -1,29 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fonte similar à da Netflix */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f2f5;
-    color: #333;
+    background-color: #141414; /* Fundo preto */
+    color: #fff; /* Texto branco */
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente para o container */
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra sutil branca */
 }
 
 h1 {
-    color: #e91e63; /* Cor de rosa */
+    color: #e50914; /* Vermelho Netflix */
     margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 #countdown {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
-    color: #4CAF50; /* Verde */
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.profile-photo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px;
+    border-radius: 50%; /* Para deixar a foto redonda */
+    object-fit: cover; /* Para garantir que a imagem cubra o círculo sem deformar */
+    margin-bottom: 20px;
+    border: 3px solid #e50914; /* Borda vermelha opcional */
 }
